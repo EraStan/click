@@ -12,7 +12,7 @@ def get_position():
     while not get_task_completed:
         current_x, current_y = pyautogui.position()
         position_label.config(text=f"当前鼠标位置：{current_x}, {current_y}")
-        time.sleep(0.5)
+        #time.sleep(0.5)
 
 def start_getting_position():
     global get_task_completed
